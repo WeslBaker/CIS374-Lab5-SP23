@@ -15,6 +15,10 @@ namespace Lab5
 
             Console.WriteLine(undirectedGraph.IsReachable("gb", "mw"));
 
+            UndirectedGraph undirectedGraph1 = new UndirectedGraph("../../../graphs/graph3.txt");
+
+            Console.WriteLine(undirectedGraph1.ConnectedComponents);
+
         }
     }
 }
